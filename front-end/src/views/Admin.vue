@@ -65,7 +65,7 @@
         </div>
       </div>
       <div class="update">
-        <h3>Update/Delete Album</h3>
+        <h3>Update/Delete Song</h3>
         <div class="form">
           <input v-model="findSongTitle" type="text" placeholder="Search">
           <div class="suggestions" v-if="songSuggestions.length > 0">
