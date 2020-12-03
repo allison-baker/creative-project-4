@@ -25,8 +25,8 @@
           <button @click="uploadAlbum">Upload</button>
         </div>
       </div>
+      <h3>Update/Delete Album</h3>
       <div class="update">
-        <h3>Update/Delete Album</h3>
         <div class="form">
           <input v-model="findAlbumTitle" type="text" placeholder="Search">
           <div class="suggestions" v-if="albumSuggestions.length > 0">
@@ -64,8 +64,8 @@
           <button @click="uploadSong">Upload</button>
         </div>
       </div>
+      <h3>Update/Delete Song</h3>
       <div class="update">
-        <h3>Update/Delete Song</h3>
         <div class="form">
           <input v-model="findSongTitle" type="text" placeholder="Search">
           <div class="suggestions" v-if="songSuggestions.length > 0">
