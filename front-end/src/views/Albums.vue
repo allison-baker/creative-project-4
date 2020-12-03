@@ -88,14 +88,14 @@ img {
     flex-direction: column;
   }
 
-  .song-box {
+  .album {
     width: 100%;
     margin: 15px 0;
   }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  .song-box {
+  .album {
     width: 48%;
   }
 }
